@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    padding: 10px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+form .heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+form .heading span{
+    width: 100px;
+    border-bottom: 1px solid rgb(175, 175, 175);
+}
+
+form .heading h1{
+    color: rgb(255, 69, 156);
+    padding: 10px;
+}
+
+/* content  */
+
+
+form .unit{
+    position: relative;
+    border: 2px solid gainsboro;
+    margin-bottom: 15px;
+}
+form .unit >span{
+    background: rgb(255, 69, 156);
+    color: white;
+    position: absolute;
+    padding: 8px;
+    border-radius: 5px;
+    right: 0;
+    top: -10px;
+}
+
+/* unit details */
+form .unit .units-heading{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+form .unit .units-heading .left-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.left-text input[type="radio"] {
+    accent-color: rgb(255, 69, 156);
+    size: 20px;
+}
+.left-text div h3 span{
+    font-size: 15px;
+    font-weight: 400;
+    background: rgb(255, 69, 156);
+    color: white;
+    margin-left: 5px;
+    padding: 2px 5px;
+    border-radius: 2px;
+}
+.left-text div p{
+    margin-top: 5px;
+}
+.right-text del{
+    font-size: 13px;
+    color: gray;
+}
+
+/* unit size and color  */
+
+.units-content {
+    padding: 10px 20px 20px 50px;
+    display: flex;
+    gap: 20px;
+    visibility: hidden;
+    height: 0px;
+}
+/* left  and right */
+.units-content .left-col, .units-content .right-col{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.units-content .left-col p{
+    margin-left: 25px;
+}
+.units-content .left-col select, .units-content .right-col select{
+    width: 100px;
+    padding: 6px;
+}
+
+/* open and close  */
+.units-content.active{
+    visibility: visible;
+    height: auto;
+}
+
+/* billing  */
+.billing{
+    display: flex;
+    justify-content: space-between;
+}
+.billing p:nth-child(1){
+    color: rgb(255, 69, 156);
+}
+
+/* submit  */
+
+button{
+    width: 100%;
+    margin-top: 20px;
+    background: rgb(255, 69, 156);
+    padding: 17px ;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    align-items: center;
+    font-size: 16px;
+}

@@ -39,7 +39,7 @@ form .heading h1{
 form .unit{
     position: relative;
     border: 2px solid gainsboro;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
 }
 form .unit >span{
     background: rgb(255, 69, 156);
@@ -47,8 +47,8 @@ form .unit >span{
     position: absolute;
     padding: 8px;
     border-radius: 5px;
-    right: 0;
-    top: -10px;
+    right: 5px;
+    top: -21px;
 }
 
 /* unit details */

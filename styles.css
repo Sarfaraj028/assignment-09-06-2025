@@ -57,6 +57,9 @@ form .unit .units-heading{
     display: flex;
     justify-content: space-between;
 }
+form .unit .units-heading:hover{
+    cursor: pointer;
+}
 form .unit .units-heading .left-text{
     display: flex;
     justify-content: center;
@@ -87,7 +90,6 @@ form .unit .units-heading .left-text{
 /* unit size and color  */
 
 .units-content {
-    padding: 10px 20px 20px 50px;
     display: flex;
     gap: 20px;
     visibility: hidden;
@@ -111,6 +113,7 @@ form .unit .units-heading .left-text{
 .units-content.active{
     visibility: visible;
     height: auto;
+    padding: 10px 20px 20px 50px;
 }
 
 /* billing  */

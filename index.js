@@ -51,20 +51,20 @@ headers.forEach((header) => {
 });
 
 // Optional: Clicking on the radio itself behaves the same
-radios.forEach((radio) => {
-  radio.addEventListener("click", () => {
-    const content = document.getElementById("content-" + radio.id);
+// radios.forEach((radio) => {
+//   radio.addEventListener("click", () => {
+//     const content = document.getElementById("content-" + radio.id);
 
-    if (radio === lastChecked) {
-      radio.checked = false;
-      content.classList.remove("active");
-      lastChecked = null;
-    } else {
-      radios.forEach((r) => {
-        document.getElementById("content-" + r.id).classList.remove("active");
-      });
-      content.classList.add("active");
-      lastChecked = radio;
-    }
-  });
-});
+//     if (radio === lastChecked) {
+//       radio.checked = false;
+//       content.classList.remove("active");
+//       lastChecked = null;
+//     } else {
+//       radios.forEach((r) => {
+//         document.getElementById("content-" + r.id).classList.remove("active");
+//       });
+//       content.classList.add("active");
+//       lastChecked = radio;
+//     }
+//   });
+// });

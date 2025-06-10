@@ -8,7 +8,7 @@ This responsive and animated UI lets users select unit packages, customize size/
 ## 🌟 Live Demo
 
 🔗 [View Live on GitHub Pages](https://sarfaraj028.github.io/assignment-09-06-2025/)  
-_(Replace the link with your actual GitHub Pages URL)_
+
 
 ---
 
@@ -21,7 +21,3 @@ _(Replace the link with your actual GitHub Pages URL)_
 ✅ **Mobile-Responsive UI**  
 ✅ **Clean & modern design** using `remixicon` and custom CSS  
 ✅ **Vanilla JavaScript Logic** — No framework used!
-
-
-## 📁 Folder Structure
-

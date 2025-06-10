@@ -1,0 +1,35 @@
+# 🛍️ BOGO Product Selection Form
+
+A beautifully crafted **Buy One Get One (BOGO)** interactive product selection page — built using **HTML**, **CSS**, and **JavaScript**.  
+This responsive and animated UI lets users select unit packages, customize size/color, and view updated pricing dynamically.
+
+---
+
+## 🌟 Live Demo
+
+🔗 [View Live on GitHub Pages](https://your-username.github.io/your-repo-name)  
+_(Replace the link with your actual GitHub Pages URL)_
+
+---
+
+## 🧩 Features
+
+✅ **Radio-based Unit Selection**  
+✅ **Dynamic Dropdowns** for size and color  
+✅ **Real-Time Price Update**  
+✅ **Expandable Content Areas** (Accordions)  
+✅ **Mobile-Responsive UI**  
+✅ **Clean & modern design** using `remixicon` and custom CSS  
+✅ **Vanilla JavaScript Logic** — No framework used!
+
+---
+
+## 📸 Screenshot
+
+![BOGO UI Screenshot](./screenshot.png)  
+_(Upload your screenshot to your repo and name it `screenshot.png`)_
+
+---
+
+## 📁 Folder Structure
+

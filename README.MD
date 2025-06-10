@@ -7,7 +7,7 @@ This responsive and animated UI lets users select unit packages, customize size/
 
 ## 🌟 Live Demo
 
-🔗 [View Live on GitHub Pages](https://your-username.github.io/your-repo-name)  
+🔗 [View Live on GitHub Pages](https://sarfaraj028.github.io/assignment-09-06-2025/)  
 _(Replace the link with your actual GitHub Pages URL)_
 
 ---
@@ -22,14 +22,6 @@ _(Replace the link with your actual GitHub Pages URL)_
 ✅ **Clean & modern design** using `remixicon` and custom CSS  
 ✅ **Vanilla JavaScript Logic** — No framework used!
 
----
-
-## 📸 Screenshot
-
-![BOGO UI Screenshot](./screenshot.png)  
-_(Upload your screenshot to your repo and name it `screenshot.png`)_
-
----
 
 ## 📁 Folder Structure
 
